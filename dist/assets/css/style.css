@@ -506,6 +506,23 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+.about-text ul {
+  margin-bottom: 15px;
+}
+
+.about-text ul li {
+  list-style: circle;
+}
+
+.about-text ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.about-text p span {
+  font-size: var(--fs-4);
+  font-weight: 700;
+}
+
 
 
 /**
@@ -765,6 +782,18 @@ main {
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
+
+.resume-text {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-300);
+    line-height: 1.6;
+    margin-top: 15px;
+  }
+
+  .resume-text p:not(:last-child) {
+    margin-bottom: 15px;
+  }
 
 
 /**
@@ -1500,6 +1529,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .skills-item:not(:last-child) { margin-bottom: 25px; }
 
+  
 
 
   /**
