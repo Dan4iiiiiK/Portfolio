@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Dan4iiiiiK.github.io/Portfolio/",
+  "homepage": "https://dan4iiiiik.github.io/Portfolio/",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://dan4iiiiik.github.io/Portfolio/"
   },
   "keywords": [],
   "author": "",
