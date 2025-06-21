@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://Dan4iiiiiK.github.io/Portfolio/",
   "scripts": {
-    "deploy": "gh-pages -d dist https://github.com/Dan4iiiiiK/Portfolio"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
